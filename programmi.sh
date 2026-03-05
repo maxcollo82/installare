@@ -43,4 +43,10 @@ echo "------------------------------------------------"
 # Mostra le info del sistema alla fine
 neofetch
 
+# Attivazione automatica del Firewall (UFW)
+echo "Attivazione scudo di sicurezza (Firewall)..."
+sudo ufw enable
+
+
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
+
