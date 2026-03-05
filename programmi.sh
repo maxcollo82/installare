@@ -47,6 +47,9 @@ neofetch
 echo "Attivazione scudo di sicurezza (Firewall)..."
 sudo ufw enable
 
+# 3. Sicurezza e Protezione
+echo "Attivazione dello scudo di sicurezza (Firewall)..."
+sudo ufw enable
 
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
