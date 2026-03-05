@@ -59,6 +59,10 @@ sudo apt update
 sudo apt install -y unattended-upgrades
 sudo dpkg-reconfigure -plow unattended-upgrades
 
+# Aggiornamenti di sicurezza automatici
+echo "Configurazione aggiornamenti critici..."
+sudo apt install -y unattended-upgrades
+sudo dpkg-reconfigure -plow unattended-upgrades
 
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
