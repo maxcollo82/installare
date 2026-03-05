@@ -1,5 +1,19 @@
 #!/bin/bash
 
+# Colori per il terminale
+VERDE='\033[0;32m'
+NC='\033[0m' # No Color (Torna al bianco)
+
+clear
+echo -e "${VERDE}###############################################${NC}"
+echo -e "${VERDE}#       AVVIO INSTALLAZIONE SYSADMIN MAX      #${NC}"
+echo -e "${VERDE}#    Sicurezza, Programmi e DOSBox pronti!    #${NC}"
+echo -e "${VERDE}###############################################${NC}"
+echo ""
+
+
+#!/bin/bash
+
 echo "--- AVVIO MANUTENZIONE SISTEMA (Asti Linux Toolkit) ---"
 
 # 1. Aggiornamento dei pacchetti esistenti
