@@ -47,6 +47,12 @@ neofetch
 echo "Attivazione scudo di sicurezza (Firewall)..."
 sudo ufw enable
 
+# Sezione Sicurezza: Attivazione e Regole del Firewall
+echo "Configurazione dello scudo di sicurezza..."
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
+
 
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
