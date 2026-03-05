@@ -1,2 +1,2 @@
-# installare
-installare i programmi nei computer
+# Installare - Toolkit per Linux Mint Asti
+Script per l'automazione della post-installazione.
