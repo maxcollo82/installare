@@ -53,6 +53,12 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 
+# Aggiornamento database e installazione patch di sicurezza
+echo "Rinforzando le difese del sistema..."
+sudo apt update
+sudo apt install -y unattended-upgrades
+sudo dpkg-reconfigure -plow unattended-upgrades
+
 
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
