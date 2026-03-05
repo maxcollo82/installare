@@ -19,8 +19,6 @@ echo "Pulizia della cache di sistema..."
 sudo apt autoclean
 sudo apt clean
 
-#!/bin/bash
-
 # --- INSTALLAZIONE PACCHETTI COMPLETA (Asti Linux Toolkit) ---
 echo "Avvio installazione pacchetti principali..."
 
