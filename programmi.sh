@@ -19,4 +19,30 @@ echo "Pulizia della cache di sistema..."
 sudo apt autoclean
 sudo apt clean
 
+#!/bin/bash
+
+# --- INSTALLAZIONE PACCHETTI COMPLETA (Asti Linux Toolkit) ---
+echo "Avvio installazione pacchetti principali..."
+
+# 1. Aggiornamento dei repository
+sudo apt update
+
+# 2. Installazione Software (Browser, Media, Ufficio, Sistema, Grafica, Remoto)
+# Abbiamo aggiunto: GIMP (grafica) e Remmina (controllo remoto)
+echo "Installazione in corso: Chromium, VLC, GParted, OnlyOffice, GIMP, Remmina..."
+sudo apt install -y chromium-browser vlc gparted onlyoffice-desktopeditors gimp remmina neofetch
+
+# 3. Pulizia finale
+echo "Pulizia pacchetti non necessari..."
+sudo apt autoremove -y
+sudo apt autoclean
+
+echo "------------------------------------------------"
+echo "--- INSTALLAZIONE COMPLETATA CON SUCCESSO! ---"
+echo "--- Grafica e Controllo Remoto pronti!      ---"
+echo "------------------------------------------------"
+
+# Mostra le info del sistema alla fine
+neofetch
+
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
