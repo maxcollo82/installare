@@ -78,5 +78,12 @@ echo "Configurazione aggiornamenti critici..."
 sudo apt install -y unattended-upgrades
 sudo dpkg-reconfigure -plow unattended-upgrades
 
+# Modalità Invisibile: Ignora i messaggi di PING (ICMP)
+echo "Attivazione modalità invisibile (Ignore PING)..."
+sudo sed -i 's/ufw-before-input.*ICMP/ACCEPT/g' /etc/ufw/before.rules # (opzionale, dipende dalla config)
+# Il metodo più veloce e sicuro:
+sudo bash -c 'echo "net/ipv4/icmp_echo_ignore_all=1" >> /etc/ufw/sysctl.conf'
+sudo ufw reload
+
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
