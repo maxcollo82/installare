@@ -85,5 +85,10 @@ sudo sed -i 's/ufw-before-input.*ICMP/ACCEPT/g' /etc/ufw/before.rules # (opziona
 sudo bash -c 'echo "net/ipv4/icmp_echo_ignore_all=1" >> /etc/ufw/sysctl.conf'
 sudo ufw reload
 
+# Installazione IA Locale (Ollama - Più stabile e veloce)
+echo "Installazione di Ollama (IA Privata)..."
+curl -fsSL https://ollama.com/install.sh | sh
+echo "Ollama installato! Usa 'ollama run llama3' per iniziare."
+
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
