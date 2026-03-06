@@ -90,5 +90,10 @@ echo "Installazione di Ollama (IA Privata)..."
 curl -fsSL https://ollama.com/install.sh | sh
 echo "Ollama installato! Usa 'ollama run llama3' per iniziare."
 
+# Aggiunge una scorciatoia per l'IA
+echo "Configurazione scorciatoia IA..."
+echo "alias ia='ollama run llama3'" >> ~/.bashrc
+source ~/.bashrc
+
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
