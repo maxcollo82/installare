@@ -95,5 +95,15 @@ echo "Configurazione scorciatoia IA..."
 echo "alias ia='ollama run llama3'" >> ~/.bashrc
 source ~/.bashrc
 
+echo "[Desktop Entry]
+Version=1.0
+Name=IA Chat
+Exec=gnome-terminal --window --title='IA Personale' -- bash -c 'ollama run llama3; exec bash'
+Terminal=false
+Type=Application
+Icon=utilities-terminal
+Categories=System;Utility;" > ~/Escritorio/IA_Chat.desktop
+chmod +x ~/Escritorio/IA_Chat.desktop
+
 echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
 
