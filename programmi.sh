@@ -105,5 +105,5 @@ Icon=utilities-terminal
 Categories=System;Utility;" > ~/Escritorio/IA_Chat.desktop
 chmod +x ~/Escritorio/IA_Chat.desktop
 
-echo "--- MANUTENZIONE COMPLETATA CON SUCCESSO! ---"
+echo "✅ Installazione completata, Massimo! Sistema pronto a partire 🚙💨"
 
