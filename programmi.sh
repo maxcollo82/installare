@@ -12,8 +12,6 @@ echo -e "${VERDE}###############################################${NC}"
 echo ""
 
 
-#!/bin/bash
-
 echo "--- AVVIO MANUTENZIONE SISTEMA (Asti Linux Toolkit) ---"
 
 # 1. Aggiornamento dei pacchetti esistenti
