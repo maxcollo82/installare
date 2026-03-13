@@ -103,5 +103,16 @@ Icon=utilities-terminal
 Categories=System;Utility;" > ~/Escritorio/IA_Chat.desktop
 chmod +x ~/Escritorio/IA_Chat.desktop
 
+#!/bin/bash
+echo "Iniciando mantenimiento profesional..."
+
+# Actualizar repositorios
+apt update
+
+# Instalar herramientas básicas
+apt install -y rustdesk
+
+echo "¡Todo listo, Max!"
+
 echo "✅ Installazione completata, Massimo! Sistema pronto a partire 🚙💨"
 
