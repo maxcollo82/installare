@@ -11,6 +11,8 @@ Esto creará una carpeta llamada installare con todo lo que hayas subido.
 cd installare
 bash tu_script.sh
 
+<br>
+
 Si tu script de Bash tiene comandos que necesitan permisos (como instalar programas), recuerda que en el PC del cliente tendrás que usar sudo delante de los comandos o del propio script:
 
 sudo bash tu_script.sh
