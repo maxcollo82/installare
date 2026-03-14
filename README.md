@@ -1,23 +1,30 @@
-# 🛠️ Proyecto: Installare (Operazione Resurrezione PC)
+# 🛠️ Progetto: Installare (Operazione Resurrezione PC)
 
-Bienvenido al centro de mando de **Batmax**. Este repositorio contiene las herramientas automáticas para devolverle la vida a cualquier ordenador usando **Linux Mint**.
+Benvenuti nel centro di comando di **Batmax**. Questo repository contiene gli strumenti automatici per ridare vita a qualsiasi computer utilizzando **Linux Mint**.
 
-# 🚀 ¿Qué hace este script?
+## 🚀 Cosa fa questo script?
+Lo script `programmi.sh` è il mio "kit di rianimazione" personale. Con un solo comando, il sistema esegue:
+* **Manutenzione Totale:** Aggiorna il catalogo e il sistema (`update` & `upgrade`).
+* **Preparazione Pro:** Configura il repository `extrepo` per strumenti esterni.
+* **Installazione Software:** Installa istantaneamente il mio pacchetto essenziale:
+  * 🌐 **LibreWolf** (Navigazione privata e sicura)
+  * 🎬 **VLC** (Il re del multimedia)
+  * 📑 **OnlyOffice** (Produttività senza limiti)
+  * 💾 **GParted** (Gestione dischi a livello esperto)
 
-## ⚠️ Requisitos
-Para que la "resurrección" sea un éxito, asegúrate de cumplir esto:
-* **Sistema Operativo:** Linux Mint 21.x / 22.x (o cualquier base Ubuntu/Debian).
-* **Conexión a Internet:** Activa (para descargar los paquetes).
-* **Permisos:** El usuario debe tener privilegios de `sudo`.
-El script `programmi.sh` es mi "kit de reanimación" personal. Con un solo comando, el sistema realiza:
-* **Mantenimiento Total:** Actualiza el catálogo y el sistema (`update` & `upgrade`).
-* **Preparación Pro:** Configura el repositorio `extrepo` para herramientas externas.
-* **Instalación de Software:** Instala de golpe mi pack esencial:
-  * 🌐 **LibreWolf** (Navegación privada y segura)
-  * 🎬 **VLC** (El rey del multimedia)
-  * 📑 **OnlyOffice** (Productividad sin límites)
-  * 💾 **GParted** (Gestión de discos de nivel experto)
+## ⚠️ Requisiti
+Affinché la "resurrezione" sia un successo, assicurati di avere:
+* **Sistema Operativo:** Linux Mint 21.x / 22.x (o qualsiasi base Ubuntu/Debian).
+* **Connessione Internet:** Attiva (per scaricare i pacchetti).
+* **Permessi:** L'utente deve avere i privilegi di `sudo`.
 
+## 💻 Installazione Rapida (Modalità SysAdmin)
+Se ti trovi su un'installazione pulita di Linux Mint, apri il terminale e lancia questo comando magico:
+
+`curl -s https://raw.githubusercontent.com/maxcollo82/installare/main/programmi.sh | bash`
+
+---
+*Nota: Creato da un appassionato di tecnologia che crede che nessun PC meriti di morire nell'oblio.* 🐧🔥
 ## 💻 Instalación Rápida (Modo SysAdmin)
 Si estás en una instalación limpia de Linux Mint, abre la terminal y lanza este comando mágico:
 
