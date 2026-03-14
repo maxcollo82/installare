@@ -3,6 +3,7 @@
 Bienvenido al centro de mando de **Batmax**. Este repositorio contiene las herramientas automáticas para devolverle la vida a cualquier ordenador usando **Linux Mint**.
 
 # 🚀 ¿Qué hace este script?
+
 ## ⚠️ Requisitos
 Para que la "resurrección" sea un éxito, asegúrate de cumplir esto:
 * **Sistema Operativo:** Linux Mint 21.x / 22.x (o cualquier base Ubuntu/Debian).
