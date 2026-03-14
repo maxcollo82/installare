@@ -25,10 +25,3 @@ Se ti trovi su un'installazione pulita di Linux Mint, apri il terminale e lancia
 
 ---
 *Nota: Creato da un appassionato di tecnologia che crede che nessun PC meriti di morire nell'oblio.* 🐧🔥
-## 💻 Instalación Rápida (Modo SysAdmin)
-Si estás en una instalación limpia de Linux Mint, abre la terminal y lanza este comando mágico:
-
-`curl -s https://raw.githubusercontent.com/maxcollo82/installare/main/programmi.sh | bash`
-
----
-*Nota: Creado por un apasionado de la tecnología que cree que ningún PC merece morir en el olvido.* 🐧🔥
