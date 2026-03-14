@@ -20,7 +20,13 @@ sudo apt update && sudo apt upgrade -y
 
 # 2. Installazione Software Extra (se non già presenti)
 echo "Installazione strumenti di manutenzione..."
-sudo apt install -y vlc gparted chromium-browser onlyoffice-desktopeditors
+sudo apt install -y vlc gparted onlyoffice-desktopeditors
+
+sudo apt update && sudo apt install extrepo -y
+sudo extrepo enable librewolf
+sudo apt update
+
+sudo apt install -y vlc gparted librewolf onlyoffice-desktopeditors
 
 # 3. Pulizia lingue inutilizzate (per liberare spazio)
 echo "Pulizia pacchetti lingue non necessari..."
