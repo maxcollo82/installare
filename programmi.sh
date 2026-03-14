@@ -18,18 +18,14 @@ echo "--- AVVIO MANUTENZIONE SISTEMA (Asti Linux Toolkit) ---"
 echo "Aggiornamento dei repository..."
 sudo apt update && sudo apt upgrade -y
 
-# 2. # Primero añadimos el repositorio de LibreWolf
+#!/bin/bash
+
+# 1. Preparamos el terreno para LibreWolf
 sudo apt update && sudo apt install extrepo -y
 sudo extrepo enable librewolf
 sudo apt update
 
-# Ahora ya puedes meter tu lista de programas
-sudo apt install -y vlc gparted librewolf onlyoffice-desktopeditors
-
-sudo apt update && sudo apt install extrepo -y
-sudo extrepo enable librewolf
-sudo apt update
-
+# 2. Ahora que el PC ya conoce LibreWolf, instalamos TODO de golpe
 sudo apt install -y vlc gparted librewolf onlyoffice-desktopeditors
 
 # 3. Pulizia lingue inutilizzate (per liberare spazio)
