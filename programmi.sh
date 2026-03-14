@@ -18,9 +18,13 @@ echo "--- AVVIO MANUTENZIONE SISTEMA (Asti Linux Toolkit) ---"
 echo "Aggiornamento dei repository..."
 sudo apt update && sudo apt upgrade -y
 
-# 2. Installazione Software Extra (se non già presenti)
-echo "Installazione strumenti di manutenzione..."
-sudo apt install -y vlc gparted onlyoffice-desktopeditors
+# 2. # Primero añadimos el repositorio de LibreWolf
+sudo apt update && sudo apt install extrepo -y
+sudo extrepo enable librewolf
+sudo apt update
+
+# Ahora ya puedes meter tu lista de programas
+sudo apt install -y vlc gparted librewolf onlyoffice-desktopeditors
 
 sudo apt update && sudo apt install extrepo -y
 sudo extrepo enable librewolf
